@@ -2,7 +2,7 @@
 Hello friends, welcome to my blog.
 <p>
 {% for post in posts %}
-<h1>{{ post.title }}</h1> <p>
+<h1>{{ post.title }}</h1>
 {{ post.published_date }} <br>
 {{ post.text }}<br>
 <p>
